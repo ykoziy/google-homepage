@@ -54,6 +54,19 @@ body {
     font-size: 14px;
 }
 
+a {
+    text-decoration: none;
+    color: #222222; 
+}
+
+a:hover {
+    text-decoration: underline;    
+}
+
+.promo-msg a {
+    color: #1a0dab;
+}
+
 .top-navbar {
     display: flex;
     padding: 5px;
