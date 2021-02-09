@@ -48,15 +48,23 @@ table {
 }
 
 /* CSS Reset Ends here */
+:root {
+    --primaryFont: "Liberation Sans";
+    --baseFontSize: 1rem;
+    --biggerFontSize: 1.1rem;
+}
+
+html {
+    font-size: 13px;
+}
 
 body {
-    font-family: "Liberation Sans";
-    font-size: 14px;
+    font-family: var(--primaryFont);
 }
 
 a {
     text-decoration: none;
-    color: #222222; 
+    color: #222222;
 }
 
 a:hover {
@@ -72,7 +80,7 @@ a:hover {
     padding: 5px;
     justify-content: space-between;
     align-items: center;
-    margin: 15px;
+    margin: 0px 15px;
 }
 
 .top-navbar li {
@@ -80,12 +88,9 @@ a:hover {
     padding: 5px;
 }
 
-.left-navbar {
+.small-nav {
     display: flex;
-}
-
-.right-navbar {
-    display: flex;
+    align-items: center;
 }
 
 .dot-menu-container {
@@ -112,10 +117,6 @@ a:hover {
     border-radius: 5px;
     color: #FFF;
     padding: 10px 25px 10px 25px;
-}
-
-.center-navbar {
-    display: flex;
 }
 
 .bottom-navbar {
