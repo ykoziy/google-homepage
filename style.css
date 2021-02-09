@@ -123,6 +123,10 @@ a:hover {
     border-radius: 5px;
     color: #FFF;
     padding: 10px 25px 10px 25px;
+    font-size: var(--biggerFontSize)
+}
+.btn-signin:hover {
+    background-color: #287be7;
 }
 
 .bottom-navbar {
