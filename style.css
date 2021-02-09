@@ -74,6 +74,24 @@ body {
     display: flex;
 }
 
+.dot-menu-container {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.dot-menu-container:hover {
+    background-color: #f2f2f2;
+}
+
+.dot-icon {
+    display: block;
+    fill: #5f6368;
+}
+
 .center-navbar {
     display: flex;
 }
@@ -91,7 +109,6 @@ body {
     padding: 5px;
     margin: 15px;
 }
-
 
 .logo {
     margin: 25px auto;
