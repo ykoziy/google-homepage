@@ -56,10 +56,12 @@ table {
 
 html {
     font-size: 13px;
+    height: 100%;
 }
 
 body {
     font-family: var(--primaryFont);
+    height: 100%;
 }
 
 a {
@@ -162,7 +164,13 @@ a:hover {
     height: 92px;
 }
 
-/* CSS for the search form */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 550px;
+}
+
 .search-form {
     max-width: 568px;
     margin: 25px auto 0px;
