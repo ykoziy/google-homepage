@@ -106,6 +106,14 @@ a:hover {
     fill: #5f6368;
 }
 
+.btn-signin {
+    display: inline-block;
+    background-color: #1a73e8;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 25px 10px 25px;
+}
+
 .center-navbar {
     display: flex;
 }
