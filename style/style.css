@@ -48,12 +48,15 @@ html {
 body {
     font-family: var(--primaryFont);
     height: 100%;
+    font-size: var(--baseFontSize);
 }
 
 a {
     text-decoration: none;
     color: #222222;
+    font-size: var(--biggerFontSize);
 }
+
 a:hover {
     text-decoration: underline;    
 }
